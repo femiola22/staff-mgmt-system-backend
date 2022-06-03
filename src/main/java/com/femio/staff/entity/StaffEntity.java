@@ -1,4 +1,4 @@
-package com.femio.employee.entity;
+package com.femio.staff.entity;
 
 import lombok.Data;
 
@@ -6,8 +6,8 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table(name = "employees")
-public class EmployeeEntity {
+@Table(name = "staffs")
+public class StaffEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

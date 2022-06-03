@@ -1,13 +1,13 @@
-package com.femio.employee;
+package com.femio.staff;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmployeeSystemApiApplication {
+public class StaffSystemApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EmployeeSystemApiApplication.class, args);
+        SpringApplication.run(StaffSystemApiApplication.class, args);
     }
 
 }
